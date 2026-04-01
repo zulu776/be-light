@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pageBase: #fff4d0;
+  --color-textPrimary: #cb5100;
+  --color-textSecondary: #a68900;
+  
+  --font-sans: "HelveticaNeueCustom", Arial, sans-serif;
+  
+}
+
+.Header-bottom {
+  @apply text-textPrimary hover:text-textSecondary font-medium font-sans;
+}
+
+.About-class {
+  @apply text-pageBase py-6 text-xl;
+}
+
+/* Light */
+@font-face {
+  font-family: "HelveticaNeueCustom";
+  src: url("/fonts/HelveticaNeue-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Regular */
+@font-face {
+  font-family: "HelveticaNeueCustom";
+  src: url("/fonts/HelveticaNeue-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: "HelveticaNeueCustom";
+  src: url("/fonts/HelveticaNeue-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
