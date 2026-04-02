@@ -5,17 +5,17 @@ export default function About() {
     return (
         <div className="w-full">
             {/* Section 1 */}
-            <section className="flex h-screen">
-                <div className="relative w-1/2 flex items-center justify-center bg-gray-100">
+            <section className="flex flex-col md:flex-row min-h-screen">
+                <div className="relative w-full md:w-1/2 h-[40vh] md:h-auto">
                     <Image
                         src="/isa/isa2.jpeg"
                         alt="Section 1"
-                        className="w-full h-full object-cover object-top"
+                        className="flex w-full h-full object-cover object-top"
                         fill
                         priority
                     />
                 </div>
-                <div className="w-1/2 flex items-center justify-center p-8 bg-textPrimary">
+                    <div className="w-full md:w-1/2 flex items-center justify-center p-6 md:p-8 bg-textPrimary px-2">
                     <div>
                         <p className="About-class">
                             Mi camino en la nutrición empezó desde la medicina, pero también desde una motivación interna: 
@@ -37,8 +37,8 @@ export default function About() {
             </section>
 
             {/* Section 2 */}
-            <section className="flex h-screen">
-                <div className="w-1/2 flex items-center justify-center p-8 bg-textSecondary">
+            <section className="flex flex-col md:flex-row min-h-screen">
+                <div className="w-full md:w-1/2 flex items-center justify-center p-6 md:p-8 bg-textSecondary">
                     <div>
                       
                         <p className="About-class">
@@ -53,7 +53,7 @@ export default function About() {
                         </p>
                     </div>
                 </div>
-                <div className=" relative w-1/2 flex items-center justify-center bg-gray-100">
+                <div className="relative w-full md:w-1/2 h-[40vh] md:h-auto">
                     <Image
                         src="/isa/isa4.jpeg"
                         alt="Section 2"
