@@ -1,3 +1,4 @@
+"use client"
 import Link from 'next/link';
 import React from 'react';
 // import { Great_Vibes } from "next/font/google";
