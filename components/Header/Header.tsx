@@ -23,7 +23,7 @@ export const Header: React.FC = () => {
             <div className="max-w-7xl mx-auto px-4 py-6">
                 <div className="flex justify-center items-center mb-6 ">
                     <div className=''>
-                        <h1 className={`text-5xl font-bold font-sans text-textPrimary `}>Isabela Tarquino</h1>
+                        <h1 className={`text-5xl font-bold font-sans text-textPrimary `}>Isabella Tarquino</h1>
                         <p className={`flex italic text-lg justify-center item-center text-textPrimary `}>Nutricionista profesional</p>
                     </div>
                 </div>
