@@ -31,6 +31,9 @@ const config = {
         pageBaseDark: "#040301",
         brand: "red",
       },
+      fontFamily: {
+      helvetica: ['"Helvetica Neue"', 'sans-serif'],
+      },
     },
   },
   plugins: [],

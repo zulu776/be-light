@@ -1,12 +1,40 @@
+/* Fonts primero */
+@font-face {
+  font-family: "HelveticaNeueCustom";
+  src: url("/fonts/HelveticaNeue-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeueCustom";
+  src: url("/fonts/HelveticaNeue-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeueCustom";
+  src: url("/fonts/HelveticaNeue-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* Tailwind */
 @import "tailwindcss";
 
+/* Theme */
 @theme {
   --color-pageBase: #fff4d0;
   --color-textPrimary: #cb5100;
   --color-textSecondary: #a68900;
-  
-  --font-sans: "HelveticaNeueCustom", Arial, sans-serif;
-  
+
+  --font-sans: "HelveticaNeueCustom", sans-serif;
+}
+
+/* Aplicación global */
+body {
+  font-family: "HelveticaNeueCustom", sans-serif;
 }
 
 .Header-bottom {
@@ -14,37 +42,9 @@
 }
 
 .About-class {
-  @apply text-pageBase py-6 px-4 text-xl ;
+  @apply text-pageBase py-6 px-4 text-xl;
 }
 
-/* Light */
-@font-face {
-  font-family: "HelveticaNeueCustom";
-  src: url("/fonts/HelveticaNeue-Light.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Regular */
-@font-face {
-  font-family: "HelveticaNeueCustom";
-  src: url("/fonts/HelveticaNeue-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Bold */
-@font-face {
-  font-family: "HelveticaNeueCustom";
-  src: url("/fonts/HelveticaNeue-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
+.ServiceTextHome {
+  @apply px-8;
 }
