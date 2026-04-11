@@ -8,32 +8,38 @@ export default function ServiceText() {
         <p className="py-4 text-3xl text-center">
           Ofrecemos una amplia gama de servicios para satisfacer tus necesidades
         </p>
-        <div className="flex py-6">
+        <div className="flex  py-6">
           <div className={`ServiceTextHome`}>
             <ImagePlusText
               imagen="/isa/isa_pc.jpeg"
               alt="Service 1"
-              titulo1="Servicio 1"
-              titulo2="Servicio 2"
-              texto="Descripción del servicio"
+              titulo1="UNO"
+              titulo2="NUTRICIÓN"
+              texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat."
             />
           </div>
           <div className={`ServiceTextHome`}>
             <ImagePlusText
               imagen="/isa/isa_pc.jpeg"
               alt="Service 1"
-              titulo1="Servicio 1"
-              titulo2="Servicio 2"
-              texto="Descripción del servicio"
+              titulo1="DOS"
+              titulo2="CONSULTA ONLINE"
+              texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat."
             />
           </div>
           <div className={`ServiceTextHome`}>
             <ImagePlusText
               imagen="/isa/isa_pc.jpeg"
               alt="Service 1"
-              titulo1="Servicio 1"
-              titulo2="Servicio 2"
-              texto="Descripción del servicio"
+              titulo1="TRES"
+              titulo2="CHARLAS"
+              texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat."
             />
           </div>
         </div>

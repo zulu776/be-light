@@ -24,9 +24,9 @@ export default function ImagePlusText({
           className="object-cover object-top w-[200px] h-[200px]"
           priority
         />
-        <p>{titulo1}</p>
-        <p>{titulo2}</p>
-        <p>{texto}</p>
+        <p className="text-sm py-2 font-thin text-textPrimary">{titulo1}</p>
+        <p className="text-2xl py-2 font-thin">{titulo2}</p>
+        <p className="text-base py-2 font-thin">{texto}</p>
       </div>
     </>
   );
