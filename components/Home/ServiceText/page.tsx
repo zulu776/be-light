@@ -8,7 +8,7 @@ export default function ServiceText() {
         <p className="py-4 text-3xl text-center">
           Ofrecemos una amplia gama de servicios para satisfacer tus necesidades
         </p>
-        <div className="flex  py-6">
+        <div className="flex flex-col md:flex-row  py-6">
           <div className={`ServiceTextHome`}>
             <ImagePlusText
               imagen="/isa/isa_pc.jpeg"

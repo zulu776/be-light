@@ -2,8 +2,8 @@
 
 export default function InfoText() {
   return (
-    <div className="flex justify-center items-center w-2/4 mx-auto py-16">
-      <div className="w-1/2">
+    <div className="flex md:flex-row flex-col justify-center items-center w-3/4 md:w-2/4 mx-auto py-16">
+      <div className="w-full md:w-1/2">
         <p className=" font-bold text-2xl text-textPrimary">Be Light</p>
         <p className=" text-textPrimary text-lg py-2">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -15,7 +15,7 @@ export default function InfoText() {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-      <div className="w-1/2">
+      <div className="w-full md:w-1/2">
         <p className=" font-bold text-2xl text-textPrimary">Be Light</p>
         <p className=" text-textPrimary text-lg py-2">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
